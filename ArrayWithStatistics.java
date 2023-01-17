@@ -7,7 +7,7 @@ public class ArrayWithStatistics {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the size of array:-");
+		
 		int size = args.length;
 		int arr[] = new int[size];
 		for(int i=0;i<size;i++)
@@ -19,11 +19,11 @@ public class ArrayWithStatistics {
 		int min1 = min(arr);
 		int max1 = max(arr);
 		double median1 = median(arr);
-		System.out.println("sum of given array is " +sum1);
-		System.out.println("Average of given array is "+average1);
+		System.out.println("sum of given array is       " +sum1);
+		System.out.println("Average of given array is   "+average1);
 		System.out.println("Minimun element of array is "+min1);
 		System.out.println("Maximum element of array is "+max1);
-		System.out.println("Median element of array is "+median1);
+		System.out.println("Median element of array is  "+median1);
 		System.out.println("Frequency of each element in given array");
 		frequency(arr);
 	}
